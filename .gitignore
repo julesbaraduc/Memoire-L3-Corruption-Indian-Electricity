@@ -1,0 +1,14 @@
+# On ignore le dossier de données entier
+Data/
+
+# Par sécurité, on ignore toutes les extensions de données
+*.RData
+*.dta
+*.csv
+*.xlsx
+
+# On ignore les fichiers systèmes polluants
+.DS_Store
+.Rhistory
+.Ruser_profile
+.Rproj.user
