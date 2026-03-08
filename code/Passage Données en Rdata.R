@@ -23,8 +23,10 @@ library(haven)
 
   #shrug-triv-can-dta (candidats)
   trivedia_candidates_clean <- read_dta("data/1_SHRUG/shrug-triv-cand-dta/trivedi_candidates_clean.dta")
+  trivedi_elections_clean <- read_dta("data/1_SHRUG/shrug-triv-elect-dta/trivedi_elections_clean.dta")
   
   save(trivedia_candidates_clean, file ="data/shrug_triv_candidate.RData")
+  save(trivedi_elections_clean, file = "data/shrug_triv_elections_clean")
 
   #shurg-viirs-annual-dta
   viirs_annual_con07 <- read_dta("data/1_SHRUG/shrug-viirs-annual-dta/viirs_annual_con07.dta")
@@ -58,5 +60,7 @@ library(haven)
   load("data/shrug-viirs-annual.Rdata")
   load("data/Shurg_con_key.RData")
   load("data/RData/Billing_Data.RData")
+  
+  #FIN
  
  

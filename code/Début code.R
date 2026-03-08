@@ -8,5 +8,8 @@ load("shrug-dmsp.RData")
 load("shrug-viirs-annual.Rdata")
 load("Shurg_con_key.RData")
 
-moyenne_lumiere <- mean(dsmp_shrid$dmsp_mean_light, na.rm = TRUE)
+# test fun : moyenne_lumiere <- mean(dsmp_shrid$dmsp_mean_light, na.rm = TRUE)
+
+head(dsmp_con07)
+
 
