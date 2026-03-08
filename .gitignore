@@ -1,12 +1,12 @@
 # On ignore le dossier de données entier
-Data/
+data/
 
 # Par sécurité, on ignore toutes les extensions de données
 *.RData
 *.dta
 *.csv
 *.xlsx
-
+*.tmp
 # On ignore les fichiers systèmes polluants
 .DS_Store
 .Rhistory
