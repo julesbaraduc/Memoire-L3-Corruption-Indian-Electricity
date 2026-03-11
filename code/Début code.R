@@ -12,4 +12,4 @@ load("Shurg_con_key.RData")
 
 # test fun : moyenne_lumiere <- mean(dsmp_shrid$dmsp_mean_light, na.rm = TRUE)
 
-head(dsmp_con07)
+moyenne <- mean(dsmp_con07$dmsp_max_light) 
